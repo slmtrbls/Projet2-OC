@@ -1,0 +1,429 @@
+#partie1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#Partie_gauche {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin: 15px 0;
+    border-radius:20px;
+    padding: 25px;
+}
+#Partie_gauche a:hover {
+    color: black;
+    cursor: pointer;
+}
+#Partie_gauche h1{
+    font-size:22px;
+    padding: 15px 0px;
+}
+#Hébergements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cards_hebergements {
+    background-color: white;
+    width: 30%;
+    height: 230px;
+    border-radius:20px;
+    box-shadow: 3px 3px 3px lightgrey;
+    margin: 10px 10px 15px 10px; 
+}
+.cards_hebergements:hover {
+    transform: scale(1.05);
+}
+.cards1_body h3, .cards1_body p {
+    font-size: 14px;
+}
+#Hébergements img {
+    width: 100%;
+    height: 165px;
+    padding: 2px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+#Hotel_de_la_mer img {
+    height: 165px;
+    object-fit: cover;
+}
+#Auberge_le_panier img {
+    height: 165px;
+    object-fit: cover;
+}
+#Hotel_chez_amina img {
+    height: 165px;
+    object-fit: cover;
+}
+.cards1_body {
+    padding: 0 10px 10px 10px;
+}
+.cards1_note {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#Afficher {
+    padding: 15px;
+}
+#Partie_droite {
+    background-color: #F2F2F2;
+    flex: 1;
+    height: 25%;
+    padding: 10px;
+    margin: 5px 5px 5px 30px;
+    border-radius:20px;
+}
+#Partie_droite a:hover {
+    color: black;
+    cursor: pointer;
+}
+.titre_populaires {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 15px;
+}
+#Partie_droite h1{
+    font-size:22px;
+    padding: 15px 0px;
+}
+#Populaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+}
+.cards2 {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    height: 160px;
+    box-shadow: 3px 3px 3px lightgrey;
+    margin: 14.5px;
+}
+.cards2:hover {
+    transform: scale(1.05);
+}
+.cards2_image {
+    width: 40%;
+}
+.cards2 img {
+    height: 160px;
+    width: 100%;
+    padding: 2px;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+}
+.cards2_body {
+    height: 100%;
+    width: 60%;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 10px 2px 10px;
+}
+.cards2_body h3 {
+    font-size: 14px;
+}
+.cards2_body p {
+    font-size: 14px;
+}
+.cards2_note {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+.euro {
+    font-weight: bold;
+}
+.full_star {
+    color: #0065FC;
+}
+.empty_star {
+    color: #F2F2F2;
+}
+
+#Titre_Activités {
+    display: flex;
+    font-size: 22px;
+}
+#Partie2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#Partie2 a:hover {
+    color: black;
+}
+#Partie2 h3 {
+    font-size: 12px;
+}
+.Activité1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 415px;
+    width: 23%;
+    box-shadow: 3px 3px 3px lightgrey;
+}
+.Activité1:hover {
+    transform: scale(1.05);
+}
+.Activité1 img {
+    width: 100%;
+    height: 370px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.Activité1_titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0 10px 15px;
+}
+.Activité2_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 23%;
+}
+.Activité2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 250px;
+    box-shadow: 3px 3px 3px lightgrey;
+    margin-bottom: 15px;
+}
+.Activité2:hover {
+    transform: scale(1.05);
+}
+.Activité2 img {
+    width: 100%;
+    height: 205px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.Activité2_titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0 10px 15px;
+}
+.Activité3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 150px;
+    box-shadow: 3px 3px 3px lightgrey;
+}
+.Activité3:hover {
+    transform: scale(1.05);
+}
+.Activité3 img {
+    width: 100%;
+    height: 105px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.Activité3_titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0 10px 15px;
+}
+.Activité4 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 415px;
+    width: 23%;
+    box-shadow: 3px 3px 3px lightgrey;
+}
+.Activité4:hover {
+    transform: scale(1.05);
+}
+.Activité4 img {
+    width: 100%;
+    height: 370px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.Activité4_titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0 10px 15px;
+}
+.Activité5_6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 23%;
+}
+.Activité5 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 200px;
+    box-shadow: 3px 3px 3px lightgrey;
+    margin-bottom: 15px;
+}
+.Activité5:hover {
+    transform: scale(1.05);
+}
+.Activité5 img {
+    width: 100%;
+    height: 155px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.Activité5_titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0 10px 15px;
+}
+.Activité6 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 200px;
+    box-shadow: 3px 3px 3px lightgrey;
+}
+.Activité6:hover {
+    transform: scale(1.05);
+}
+.Activité6 img {
+    width: 100%;
+    height: 155px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.Activité6_titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0 10px 15px;
+}
+
+
+
+/* MEDIA QUERIES*/
+
+@media only all and (max-width: 1061px){
+    #partie1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #Partie_gauche{
+        order: 2;
+        background-color: white;
+    }
+    #Hébergements {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .cards_hebergements {
+        margin: 20px;
+        width: 230px;
+    }
+    #Partie_droite {
+        order: 1;
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+    #Populaires {
+        padding: 15px 15px 15px 5px;
+    }
+    .cards2 {
+        width: 95%;
+    }
+    .cards2_image {
+        width: 40%;
+    }
+    .cards2 img {
+        width: 100%;
+    }
+    .cards2_body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .cards2_note {
+        padding: 10px 0;
+    }
+}
+@media only all and (max-width: 550px){
+    #Partie_gauche{
+        width: 100%;
+        margin: 5%;
+        padding: 15px;
+    }
+    #Partie_gauche h1{
+        padding-left: 20px;
+    }
+    .cards_hebergements {
+        background-color: white;
+        width: 95%;
+        height: 20%;
+        border-radius:20px;
+    }
+    #Hotel_de_la_mer img {
+        height: 180px;
+    }
+    #Auberge_le_panier img {
+        height: 180px;
+    }
+    #Hotel_chez_amina img {
+        height: 180px;
+    }
+    #Titre_Activités {
+        margin-left: 5px;
+    }
+    #Partie2 {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    #Partie2 h3 {
+        font-size: 15px;
+    }
+    .Activité1, .Activité2, .Activité3, .Activité4, .Activité5, .Activité6 {
+        width: 100%;
+        height: 20%;
+        margin-bottom: 25px;
+    }
+    .Activité2_3 {
+        width: 100%;
+    }
+    .Activité5_6 {
+        width: 100%;
+    }
+    .Activité1 img, .Activité2 img, .Activité3 img, .Activité4 img, .Activité5 img, .Activité6 img {
+        height: 200px;
+    }
+}

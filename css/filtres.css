@@ -1,0 +1,90 @@
+#filtres{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap:wrap;
+    margin-bottom: 15px;
+}
+
+#filtres h3{
+    padding-right: 20px;
+    margin-bottom: 2px;
+}
+
+#filtres h4{
+    font-size: 15px;
+    padding-right: 10px;
+    padding-bottom: 0;
+}
+
+.filtre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    border: 2px solid #F2F2F2;
+    border-radius: 30px;
+    margin: 0 5px 10px 0;
+}
+
+.filtre:hover{
+    cursor: pointer;
+    color: #0065FC;
+    background-color: #F2F2F2;
+}
+
+.blue{
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 30px;
+}
+
+#icone_billet, #icone_famille, #icone_romantique, #icone_animaux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#icone_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    border:1px solid #F2F2F2;
+}
+
+#info p{
+    margin: 0 1%;
+}
+
+/* MEDIA */
+
+
+@media only all and (max-width: 768px){
+    .filtre {
+        margin-bottom: 10px;
+    }
+    #filtres h3{
+        padding-right: 20px;
+        width: 100%;
+        margin: 10px 0;
+    }
+    #filtres h4{
+        padding: 0 5px 0 0px;
+    }    
+    
+}

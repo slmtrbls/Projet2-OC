@@ -1,0 +1,129 @@
+#titre h1{
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+#titre p{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#recherche{
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    margin: 1% auto;
+    padding-bottom: 10px;
+}
+
+#champ_recherche{
+    width: 325px;
+    height: 40px;
+    border: 1px solid #f2f2f2;
+    font-weight: bold;
+    font-size: 1em;
+    padding-left: 20px;
+}
+
+#icone_marker_map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    background-color: #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#rechercher{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+}
+
+#rechercher-web{
+    padding: 10px;
+    font-weight: bold;
+}
+
+#recherche button:hover{
+    cursor: pointer;
+}
+
+#rechercher-mob{
+    display: none;
+}
+
+/*================MEDIA===================*/
+
+@media only all and (max-width: 475px){
+
+    #titre{
+        width: 100%;
+    }
+
+    #titre h1{
+        display: flex;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 0;
+    }
+
+    #titre p{
+        font-size: 0.9em;
+        padding: 10px 0 20px 0;
+    }
+
+    #recherche{
+        width: 100%;
+    }
+
+    #champ_recherche{
+        width: 75%;
+        height: 50px;
+        font-weight: bold;
+        font-size: 1em;
+        padding-left: 15px;
+    }
+
+    #icone_marker_map{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background-color: #F2F2F2;
+        border-radius: 15px 0px 0px 15px;
+        font-size: 20px;
+    }
+
+    #rechercher{
+        position: absolute;
+        right: 50px;
+        height: 50px;
+        width: 50px;
+        border-radius: 15px;
+        font-size: 20px;
+        justify-content: center;
+    }
+
+    #rechercher-web{
+        display: none;
+    }
+
+    #rechercher-mob{
+        display: flex;
+    }
+}
+
+@media only all and (max-width: 350px){
+
+    #rechercher{
+        right: 20px;
+    }
+
+}
